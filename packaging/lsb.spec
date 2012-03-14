@@ -5,7 +5,7 @@ Version:    3.2
 Release:    2
 Group:      System/Base
 License:    GPLv2
-Source0:    lsb_%{version}-23.1.tar.gz
+Source0:    lsb-%{version}.tar.gz
 Provides:   /lib/lsb/init-functions
 
 
