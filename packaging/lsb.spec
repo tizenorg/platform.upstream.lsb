@@ -6,6 +6,7 @@ Release:    2
 Group:      System/Base
 License:    GPLv2
 Source0:    lsb-%{version}.tar.gz
+Source1001: packaging/lsb.manifest 
 Provides:   /lib/lsb/init-functions
 
 
@@ -19,6 +20,7 @@ Linux Standard Base 3.2
 
 
 %build
+cp %{SOURCE1001} .
 
 
 
@@ -34,6 +36,7 @@ cp -p init-functions %{buildroot}/lib/lsb
 
 
 %files
+%manifest lsb.manifest
 %defattr(-,root,root,-)
 /lib/lsb/init-functions
 
