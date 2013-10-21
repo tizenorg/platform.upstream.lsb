@@ -1,3 +1,6 @@
+* Mon Oct 28 2013 Jacek Bukarewicz <j.bukarewicz@samsung.com> accepted/tizen/20130912.195400@34652e3
+- Fixes to rpmlint and license related issues
+
 * Sun Aug 25 2013 Chengwei Yang <chengwei.yang@intel.com>
 - Remove debian packaging stuff
 
